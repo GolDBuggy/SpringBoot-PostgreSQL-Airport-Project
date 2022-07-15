@@ -10,7 +10,7 @@ olmalıdır ve aynı 2 güzergah arasında günde maksimum 3 uçuş yapılmalıd
 
 ---------------------------
 PostgreSQL Tablolar:
-
+```
 create table airport(
     airport_id serial primary key,
     airport_code varchar(8) unique not null,
@@ -45,6 +45,8 @@ insert into airport(airport_code,airport_location) values('SBHGKN34','İstanbul'
 insert into airport(airport_code,airport_location) values('ISTNBL34','İstanbul')
 insert into airport(airport_code,airport_location) values('ESNBGA01','Ankara')
 insert into airport(airport_code,airport_location) values('KYA42','Konya')
+
+```
 ---------------------------
 
 
