@@ -1,6 +1,7 @@
 # SpringBoot-PostgreSQL-Airport-Project
 SpringBoot  Airport Project
 
+
 Bilgi: 
 Bir tane havayolları planlama API'si geliştirmeniz ve uçuş bilgilerinde;
 - Uçuş kodu
@@ -9,6 +10,7 @@ Bir tane havayolları planlama API'si geliştirmeniz ve uçuş bilgilerinde;
 olmalıdır ve aynı 2 güzergah arasında günde maksimum 3 uçuş yapılmalıdır.
 
 ---------------------------
+
 PostgreSQL Tablolar:
 ```
 create table airport(
@@ -47,10 +49,12 @@ insert into airport(airport_code,airport_location) values('ESNBGA01','Ankara')
 insert into airport(airport_code,airport_location) values('KYA42','Konya')
 
 ```
+
+
 ---------------------------
 
 
-
+```
 localhost:8080/ticket/save => 
 {
     "departure":"SBHGKN34",      
@@ -64,3 +68,5 @@ localhost:8080/ticket/save =>
         "phone":"05323323232"
     }
 }
+
+```
